@@ -14,4 +14,4 @@
 
 ## For run it on windows startup create a shortcut and copy it into startup directory
 
-*Type the Win key and R then write shell:startup then copy here yoyr script for exec it whe system startup*
+*Type the Win key and R then write shell:startup then copy here your script for exec it whe system startup*
