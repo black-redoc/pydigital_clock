@@ -4,6 +4,8 @@ from datetime import datetime
 # Starts the main frame
 root = Tk()
 root.title("Digital Clock")
+height = root.winfo_screenheight()
+width = root.winfo_screenwidth()
 
 """
   returns a colon if the actual second is even,
@@ -36,7 +38,9 @@ label_time = Label(
   root,
   font=("digital numbers", 65),
   background="#000000",
-  foreground="#ffffff"
+  foreground="#ffffff",
+  width=width,
+  height=height
 )
 label_time.pack(anchor="center")
 label_time.master.overrideredirect(True)
@@ -47,4 +51,7 @@ label_time.master.lift()
 if __name__ == "__main__":
   time()
   root.eval('tk::PlaceWindow . center')
+  root.overrideredirect(True)
+  root.overrideredirect(False)
+  root.attributes("-fullscreen", True)
   mainloop()

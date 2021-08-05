@@ -10,8 +10,8 @@
 <img src="./assets/image_example.png"/>
 
 
-## If you whant tu run it on windows use the pythonw and doble click in int for run it without cmd
+> If you whant tu run it on windows use the pythonw and doble click in int for run it without cmd
 
-## For run it on windows startup create a shortcut and copy it into startup directory
+> For run it on windows startup create a shortcut and copy it into startup directory
 
 *Type the Win key and R then write shell:startup then copy here your script for exec it whe system startup*
